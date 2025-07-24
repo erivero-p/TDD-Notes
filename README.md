@@ -1,11 +1,9 @@
 # TDD-Notes
 A brief overview of some TDD concepts
 
-> ENG version below (eventually)
+This repo contents my TDD (Test-Driven Development) notes, covering from basic concepts, to practical implementations on Spring Boot.
 
-Este repositorio contiene apuntes sobre Test-Driven Development (TDD) en español, cubriendo desde conceptos básicos hasta implementaciones prácticas con Spring Boot.
-
-## **Contenido**
+## **Contents**
 
 ```
 ├── Spanish-Version/
@@ -31,6 +29,30 @@ Este repositorio contiene apuntes sobre Test-Driven Development (TDD) en españo
 │           ├── Tests de integración con @EmbeddedKafka
 │           ├── Verificación de mensajes enviados y recibidos
 │           └── Testing con Avro y JSON
+│
+└── English-Version/
+    ├── TDD-Basics.md
+    │   ├── TDD (Test-Driven Development)
+    │   │   ├── What is Test-Driven Development (TDD)
+    │   │   ├── The Testing Pyramid
+    │   │   └── The Red-Green-Refactor Loop
+    │   ├── Unit Tests
+    │   │   ├── AAA Pattern: Arrange - Act - Assert
+    │   │   ├── Simple Unit Tests
+    │   │   ├── Service Testing
+    │   │   └── Controller Testing
+    │   └── Integration Tests
+    │       ├── Real connections between layers
+    │       └── Best practices
+    │
+    └── Reactive-TDD.md
+        ├── Kafka Testing and Reactive Programming
+        │   └── Testing Flux and Mono
+        └── Testing with Kafka and Spring WebFlux
+            ├── Consumers and publishers with Flux KafkaTemplate
+            ├── Integration tests with @EmbeddedKafka
+            ├── Verification of sent and received messages
+            └── Testing with Avro and JSON
 ```
 
-*Apuntes compilados durante el entrenamiento técnico en TDD*
+*Notes compiled during techincal training on TDD*
